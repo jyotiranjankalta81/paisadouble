@@ -1,55 +1,48 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <ion-title>
-      Home
-    </ion-title>
-    <ion-title id="logout">
-      Logout
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion>
 
-<ion-content [fullscreen]="true">
-<!--   
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large"color="blue">Home</ion-title>
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>
+        Home
+      </ion-title>
+      <ion-title id="logout">
+        Logout
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div> -->
-  <p>Hello!!!</p>
-  <p>Deborah MAM!! Aur kese ho App?? yaha Pawri ho raha hai</p>
-  <h1>VM</h1>
-  <div class="content">
+  <ion-content [fullscreen]="true">
+    <p>Hello!!!</p>
+    <p>Deborah MAM!! Aur kese ho App?? yaha Pawri ho raha hai</p>
+    <h1>VM</h1>
+    <div class="content">
 
-    <div id="container">
-      <button>New</button>
-      <p>Upload Images</p>
-      <br>
-      <ion-icon name="play" color="" size="large"></ion-icon>
+      <div id="container">
+        <button>New</button>
+        <p>Upload Images</p>
+        <br>
+        <ion-icon name="play" color="" size="large"></ion-icon>
+      </div>
+      <div id="container" routerLink="/img">
+        <p>View Images</p>
+        <ion-icon name="images" size="large"></ion-icon>
+      </div>
+      <div id="container">
+        <button float="right">4</button>
+        <p>Feedback</p>
+        <ion-icon name="star" size="large"></ion-icon>
+      </div>
+      <div id="container">
+        <p>Checklist</p>
+        <ion-icon name="checkbox" size="large"></ion-icon>
+        <span></span>
+        <!-- <ion-icon name="remove-outline" size="large"></ion-icon> -->
+      </div>
+      <div id="container">
+        <p>Guidelines</p>
+      </div>
     </div>
-    <div id="container">
-      <p><a routerLink="/img" id="img">View Images</a></p>
-      <ion-icon name="images" size="large"></ion-icon>
-    </div>
-    <div id="container">
-      <button float="right">4</button>
-      <p>Feedback</p>
-      <ion-icon name="star" size="large"></ion-icon>
-    </div>
-    <div id="container">
-      <p>Checklist</p>
-      <ion-icon name="checkbox" size="large"></ion-icon>
-      <span></span>
-      <!-- <ion-icon name="remove-outline" size="large"></ion-icon> -->
-    </div>
-    <div id="container">
-      <p>Guidelines</p>
-    </div>
-  </div>
-    
+
   </ion-content>
+
+</ion>

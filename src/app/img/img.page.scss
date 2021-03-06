@@ -1,10 +1,13 @@
+ion{
+  
+    padding-left: 20%;
+    padding-right: 20%;
+}
 .container{
     height: 35px;
     width: 80%;
-    // margin-left: 60px;
     border-radius: 10px;
     margin: 10px 60px;
-    // margin-right: 60px;
 
     color: white;
     font-family: bold;
@@ -16,9 +19,17 @@
 }
 #con{
     margin-top: -10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .container h1{
     font-size: 20px;
     margin-left: 40px;
 
+}
+@media(max-width:1024px){
+    ion{
+      padding: 0;
+    }
+    
 }
